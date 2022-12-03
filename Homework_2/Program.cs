@@ -6,6 +6,7 @@ if (N <= 99)
 }
 else
 {
+   
     int ThirdNumber = (N / 100) % 10;
     Console.Write($"{ThirdNumber} является третей цифрой от числа {N}");
-}
+}    
